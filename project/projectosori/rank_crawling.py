@@ -21,9 +21,9 @@ import django
 django.setup()
 
 
-from outfit.models import musinsa_rank
-from outfit.models import mixxo_rank
-from outfit.models import spao_rank
+from osoriapp.models import musinsa_rank
+from osoriapp.models import mixxo_rank
+from osoriapp.models import spao_rank
 
 musinsa_ranking = "https://www.musinsa.com/ranking/best"
 mixxo_ranking = "https://www.mixxo.com/product/list.html?cate_no=45"

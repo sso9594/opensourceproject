@@ -12,9 +12,9 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 import django
 django.setup()
 
-from outfit.models import mixxo_model
-from outfit.models import musinsa_model
-from outfit.models import spao_model
+from osoriapp.models import mixxo_model
+from osoriapp.models import musinsa_model
+from osoriapp.models import spao_model
 
 
 musinsa = "https://www.musinsa.com/mz/brandsnap?p=1"

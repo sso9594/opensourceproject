@@ -20,7 +20,6 @@ from osoriapp import views
 from django.conf import settings
 from django.conf.urls.static import static
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home,name='home'),
@@ -35,7 +34,10 @@ urlpatterns = [
     path('login.html', views.login, name='login'),
     path('logout.html', views.logout, name='logout'),
     path('register.html', views.register, name='register'),
-
+    path('musinsa.html', views.musinsa, name='register'),
+    path('index-1.html', views.index1, name='index1'),
+    path('mixxo.html', views.mixxo, name='register'),
+    path('spao.html', views.spao, name='register'),
 ] 
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

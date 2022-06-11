@@ -2,7 +2,10 @@ from django.shortcuts import get_object_or_404, render,redirect
 from django.contrib import auth
 from django.contrib.auth.models import User
 from .forms import CommentForm, postform,Freepostform,FreeCommentForm
-from .models import Post,FreePost
+from .models import Post,FreePost,mixxo_model,musinsa_model, musinsa_rank,spao_model,mixxo_rank,spao_rank
+from bs4 import BeautifulSoup
+import requests
+
 
 def home(request):
     posts = Post.objects.filter().order_by('-date')
@@ -97,3 +100,22 @@ def register(request):
             return redirect('home')
     return render(request, 'register.html')
 
+
+def musinsa(request):
+    musinsa_models = musinsa_model.objects.all()
+    musinsa_ranks=musinsa_rank.objects.all()
+    return render(request,'musinsa.html',{'musinsa_models':musinsa_models,'musinsa_ranks':musinsa_ranks})
+
+def index1(request):
+
+    return render(request,'index-1.html')  
+
+def mixxo(request): 
+    mixxo_models = mixxo_model.objects.all()
+    mixxo_ranks=mixxo_rank.objects.all()
+    return render(request,'mixxo.html',{'mixxo_models':mixxo_models,'mixxo_ranks':mixxo_ranks})    
+
+def spao(request):
+    spao_models = spao_model.objects.all()
+    spao_ranks=spao_rank.objects.all()
+    return render(request,'spao.html',{'spao_models':spao_models,'spao_ranks':spao_ranks})
