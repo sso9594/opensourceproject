@@ -22,3 +22,6 @@ Django를 이용하여 개발한 패션 커뮤니티 사이트로 익명게시�
 류승연 / 팀원 / 백엔드 및 데이터 크롤링<br>
 
 ## Project Preview
+![image](https://user-images.githubusercontent.com/58455389/224028331-2317ca3c-ba66-4d28-8eed-db4003a38800.png)
+![image](https://user-images.githubusercontent.com/58455389/224028542-97cc4707-d55c-494f-8e77-37205d280210.png)
+![image](https://user-images.githubusercontent.com/58455389/224028701-d79082b9-c0f3-420f-b62e-ba260c6d2699.png)
