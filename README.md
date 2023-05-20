@@ -16,10 +16,10 @@ Django를 이용하여 개발한 패션 커뮤니티 사이트로 익명게시�
 <br>
 
 ## Contributor
-신승용 / 팀장 / Html, CSS, JS를 통한 프론트 업무 및 Django를 통한 백엔드 업무 <br>
-조규찬 / 팀원 / 프론트 업무 및 백엔드 지원<br>
-이현도 / 팀원 / 백엔드 및 데이터 크롤링<br>
-류승연 / 팀원 / 백엔드 및 데이터 크롤링<br>
+신승용 / 팀장 / <br>
+조규찬 / 팀원 / <br>
+이현도 / 팀원 / <br>
+류승연 / 팀원 / <br>
 
 ## Project Preview
 ![image](https://user-images.githubusercontent.com/58455389/224028331-2317ca3c-ba66-4d28-8eed-db4003a38800.png)
